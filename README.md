@@ -97,7 +97,7 @@ menu.colorOfRows = @[<#UIColor#>, <#UIColor#>, <#UIColor#>, ...];
 
 ## SyuDropDownMenu
 
-<img src=Captures/capture2.gif width=210 height=372>
+![](Captures/capture2.gif)
 
 ### Easy to use
 
