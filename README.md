@@ -30,7 +30,7 @@ Add all the files in the `CCDropDownMenu` folder to your project.
 
 ## ManaDropDownMenu
 
-<img src=Captures/capture1.gif width=210 height=372>
+![](Captures/capture1.gif)
 
 ### Easy to use
 
@@ -44,7 +44,7 @@ Add all the files in the `CCDropDownMenu` folder to your project.
 // ...
 - (void)viewDidLoad {
 	// ...
-    ManaDropDownMenu *menu = [[ManaDropDownMenu alloc] initWithFrame:<#CGRect#> 	title:<#NSString#>];
+    ManaDropDownMenu *menu = [[ManaDropDownMenu alloc] initWithFrame:<#CGRect#> title:<#NSString#>];
 	menu.delegate = self;
     menu.numberOfRows = <#NSInteger#>;
     menu.textOfRows = @[<#NSString#>, <#NSString#>, <#NSString#>, ...];
