@@ -12,5 +12,6 @@
 #import <UIKit/UIKit.h>
 #import "ManaDropDownMenu.h"
 #import "SyuDropDownMenu.h"
+#import "GaiDropDownMenu.h"
 
 #endif
