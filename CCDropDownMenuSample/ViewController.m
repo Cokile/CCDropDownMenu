@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CCDropDownMenus.h"
+#import <CCDropDownMenus/CCDropDownMenus.h>
 
 @interface ViewController () <CCDropDownMenuDelegate>
 

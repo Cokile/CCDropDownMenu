@@ -22,8 +22,47 @@
 		B62889361D307101009E35E3 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = B62889321D307101009E35E3 /* sun.png */; };
 		B62889391D30785C009E35E3 /* ManaDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B62889381D30785C009E35E3 /* ManaDropDownMenu.m */; };
 		B6488C381D34809600D6CC32 /* GaiDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B6488C371D34809600D6CC32 /* GaiDropDownMenu.m */; };
+		B6488C531D34C00400D6CC32 /* CCDropDownMenus.h in Headers */ = {isa = PBXBuildFile; fileRef = B6488C521D34C00400D6CC32 /* CCDropDownMenus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6488C571D34C00400D6CC32 /* CCDropDownMenus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6488C501D34C00400D6CC32 /* CCDropDownMenus.framework */; };
+		B6488C581D34C00400D6CC32 /* CCDropDownMenus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6488C501D34C00400D6CC32 /* CCDropDownMenus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6488C5D1D34C0DE00D6CC32 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B62889291D2FCD02009E35E3 /* arrow.png */; };
+		B6488C5E1D34C0FA00D6CC32 /* CCDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B62889271D2FBC50009E35E3 /* CCDropDownMenu.m */; };
+		B6488C5F1D34C0FA00D6CC32 /* CCDropDownMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B628892C1D2FD892009E35E3 /* CCDropDownMenuCell.m */; };
+		B6488C601D34C0FA00D6CC32 /* ManaDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B62889381D30785C009E35E3 /* ManaDropDownMenu.m */; };
+		B6488C611D34C0FA00D6CC32 /* GaiDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B6488C371D34809600D6CC32 /* GaiDropDownMenu.m */; };
+		B6488C621D34C0FA00D6CC32 /* SyuDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B98E81D3369EB001CA29F /* SyuDropDownMenu.m */; };
+		B6488C631D34C11200D6CC32 /* ManaDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B62889371D30785C009E35E3 /* ManaDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6488C641D34C11400D6CC32 /* GaiDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B6488C361D34809600D6CC32 /* GaiDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6488C651D34C11700D6CC32 /* SyuDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B68B98E71D3369EB001CA29F /* SyuDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6488C671D34C13B00D6CC32 /* CCDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B62889261D2FBC50009E35E3 /* CCDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6488C681D34C14000D6CC32 /* Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = B628893D1D3097E0009E35E3 /* Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6488C691D34C14800D6CC32 /* CCDropDownMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B628892B1D2FD892009E35E3 /* CCDropDownMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B68B98E91D3369EB001CA29F /* SyuDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B98E81D3369EB001CA29F /* SyuDropDownMenu.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6488C551D34C00400D6CC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B62889021D2FB456009E35E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6488C4F1D34C00400D6CC32;
+			remoteInfo = CCDropDownMenus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6488C5C1D34C00500D6CC32 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6488C581D34C00400D6CC32 /* CCDropDownMenus.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B628890A1D2FB456009E35E3 /* CCDropDownMenuSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCDropDownMenuSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,7 +75,6 @@
 		B62889191D2FB456009E35E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B628891C1D2FB456009E35E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B628891E1D2FB456009E35E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B62889251D2FBBBB009E35E3 /* CCDropDownMenus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCDropDownMenus.h; sourceTree = "<group>"; };
 		B62889261D2FBC50009E35E3 /* CCDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDropDownMenu.h; sourceTree = "<group>"; };
 		B62889271D2FBC50009E35E3 /* CCDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCDropDownMenu.m; sourceTree = "<group>"; };
 		B62889291D2FCD02009E35E3 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
@@ -51,12 +89,23 @@
 		B628893D1D3097E0009E35E3 /* Rect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rect.h; sourceTree = "<group>"; };
 		B6488C361D34809600D6CC32 /* GaiDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaiDropDownMenu.h; sourceTree = "<group>"; };
 		B6488C371D34809600D6CC32 /* GaiDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaiDropDownMenu.m; sourceTree = "<group>"; };
+		B6488C501D34C00400D6CC32 /* CCDropDownMenus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCDropDownMenus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6488C521D34C00400D6CC32 /* CCDropDownMenus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCDropDownMenus.h; path = CCDropDownMenu/CCDropDownMenus.h; sourceTree = SOURCE_ROOT; };
+		B6488C541D34C00400D6CC32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = CCDropDownMenu/Info.plist; sourceTree = SOURCE_ROOT; };
 		B68B98E71D3369EB001CA29F /* SyuDropDownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyuDropDownMenu.h; sourceTree = "<group>"; };
 		B68B98E81D3369EB001CA29F /* SyuDropDownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyuDropDownMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B62889071D2FB456009E35E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6488C571D34C00400D6CC32 /* CCDropDownMenus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6488C4C1D34C00400D6CC32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				B628890C1D2FB456009E35E3 /* CCDropDownMenuSample */,
-				B62889241D2FB4DB009E35E3 /* CCDropDownMenu */,
+				B62889241D2FB4DB009E35E3 /* CCDropDownMenus */,
 				B628890B1D2FB456009E35E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				B628890A1D2FB456009E35E3 /* CCDropDownMenuSample.app */,
+				B6488C501D34C00400D6CC32 /* CCDropDownMenus.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,11 +158,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B62889241D2FB4DB009E35E3 /* CCDropDownMenu */ = {
+		B62889241D2FB4DB009E35E3 /* CCDropDownMenus */ = {
 			isa = PBXGroup;
 			children = (
+				B6488C541D34C00400D6CC32 /* Info.plist */,
 				B628893D1D3097E0009E35E3 /* Rect.h */,
-				B62889251D2FBBBB009E35E3 /* CCDropDownMenus.h */,
+				B6488C521D34C00400D6CC32 /* CCDropDownMenus.h */,
 				B62889261D2FBC50009E35E3 /* CCDropDownMenu.h */,
 				B62889271D2FBC50009E35E3 /* CCDropDownMenu.m */,
 				B628892B1D2FD892009E35E3 /* CCDropDownMenuCell.h */,
@@ -122,6 +173,7 @@
 				B628893B1D3078C7009E35E3 /* SyuDropDownMenu */,
 				B628893C1D3078FE009E35E3 /* Resuorces */,
 			);
+			name = CCDropDownMenus;
 			path = CCDropDownMenu;
 			sourceTree = "<group>";
 		};
@@ -173,6 +225,23 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B6488C4D1D34C00400D6CC32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6488C531D34C00400D6CC32 /* CCDropDownMenus.h in Headers */,
+				B6488C671D34C13B00D6CC32 /* CCDropDownMenu.h in Headers */,
+				B6488C691D34C14800D6CC32 /* CCDropDownMenuCell.h in Headers */,
+				B6488C631D34C11200D6CC32 /* ManaDropDownMenu.h in Headers */,
+				B6488C641D34C11400D6CC32 /* GaiDropDownMenu.h in Headers */,
+				B6488C651D34C11700D6CC32 /* SyuDropDownMenu.h in Headers */,
+				B6488C681D34C14000D6CC32 /* Rect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		B62889091D2FB456009E35E3 /* CCDropDownMenuSample */ = {
 			isa = PBXNativeTarget;
@@ -181,15 +250,35 @@
 				B62889061D2FB456009E35E3 /* Sources */,
 				B62889071D2FB456009E35E3 /* Frameworks */,
 				B62889081D2FB456009E35E3 /* Resources */,
+				B6488C5C1D34C00500D6CC32 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B6488C561D34C00400D6CC32 /* PBXTargetDependency */,
 			);
 			name = CCDropDownMenuSample;
 			productName = CCDropDownMenu;
 			productReference = B628890A1D2FB456009E35E3 /* CCDropDownMenuSample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B6488C4F1D34C00400D6CC32 /* CCDropDownMenus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6488C5B1D34C00500D6CC32 /* Build configuration list for PBXNativeTarget "CCDropDownMenus" */;
+			buildPhases = (
+				B6488C4B1D34C00400D6CC32 /* Sources */,
+				B6488C4C1D34C00400D6CC32 /* Frameworks */,
+				B6488C4D1D34C00400D6CC32 /* Headers */,
+				B6488C4E1D34C00400D6CC32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCDropDownMenus;
+			productName = CCDropDownMenus;
+			productReference = B6488C501D34C00400D6CC32 /* CCDropDownMenus.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,6 +293,10 @@
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 5B73F3N5VZ;
 						DevelopmentTeamName = "Cokile Kelvin (Personal Team)";
+					};
+					B6488C4F1D34C00400D6CC32 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5B73F3N5VZ;
 					};
 				};
 			};
@@ -221,6 +314,7 @@
 			projectRoot = "";
 			targets = (
 				B62889091D2FB456009E35E3 /* CCDropDownMenuSample */,
+				B6488C4F1D34C00400D6CC32 /* CCDropDownMenus */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +332,14 @@
 				B62889181D2FB456009E35E3 /* Main.storyboard in Resources */,
 				B628892A1D2FCD02009E35E3 /* arrow.png in Resources */,
 				B62889341D307101009E35E3 /* rain.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6488C4E1D34C00400D6CC32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6488C5D1D34C0DE00D6CC32 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +361,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6488C4B1D34C00400D6CC32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6488C5E1D34C0FA00D6CC32 /* CCDropDownMenu.m in Sources */,
+				B6488C5F1D34C0FA00D6CC32 /* CCDropDownMenuCell.m in Sources */,
+				B6488C601D34C0FA00D6CC32 /* ManaDropDownMenu.m in Sources */,
+				B6488C611D34C0FA00D6CC32 /* GaiDropDownMenu.m in Sources */,
+				B6488C621D34C0FA00D6CC32 /* SyuDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6488C561D34C00400D6CC32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6488C4F1D34C00400D6CC32 /* CCDropDownMenus */;
+			targetProxy = B6488C551D34C00400D6CC32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B62889161D2FB456009E35E3 /* Main.storyboard */ = {
@@ -389,6 +511,50 @@
 			};
 			name = Release;
 		};
+		B6488C591D34C00500D6CC32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CCDropDownMenu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cokile.CCDropDownMenus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6488C5A1D34C00500D6CC32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CCDropDownMenu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Cokile.CCDropDownMenus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -409,6 +575,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		B6488C5B1D34C00500D6CC32 /* Build configuration list for PBXNativeTarget "CCDropDownMenus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6488C591D34C00500D6CC32 /* Debug */,
+				B6488C5A1D34C00500D6CC32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

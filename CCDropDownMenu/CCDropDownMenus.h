@@ -1,17 +1,22 @@
 //
 //  CCDropDownMenus.h
-//  CCDropDownMenu
+//  CCDropDownMenus
 //
-//  Created by Kelvin on 7/8/16.
+//  Created by Kelvin on 7/12/16.
 //  Copyright © 2016 Cokile. All rights reserved.
 //
 
-#ifndef CCDropDownMenus_h
-#define CCDropDownMenus_h
-
 #import <UIKit/UIKit.h>
-#import "ManaDropDownMenu.h"
-#import "SyuDropDownMenu.h"
-#import "GaiDropDownMenu.h"
 
-#endif
+//! Project version number for CCDropDownMenus.
+FOUNDATION_EXPORT double CCDropDownMenusVersionNumber;
+
+//! Project version string for CCDropDownMenus.
+FOUNDATION_EXPORT const unsigned char CCDropDownMenusVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <CCDropDownMenus/PublicHeader.h>
+
+
+#import <CCDropDownMenus/ManaDropDownMenu.h>
+#import <CCDropDownMenus/SyuDropDownMenu.h>
+#import <CCDropDownMenus/GaiDropDownMenu.h>

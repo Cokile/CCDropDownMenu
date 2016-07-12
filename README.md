@@ -3,6 +3,7 @@
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Cokile/CCActivityIndicatorView/blob/master/Licence)
 [![](https://img.shields.io/github/release/Cokile/CCDropDownMenu.svg)](https://github.com/Cokile/CCDropDownMenu/releases)
 [![](https://img.shields.io/cocoapods/v/CCDropDownMenu.svg)](https://img.shields.io/cocoapods/v/CCDropDownMenu.svg)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 `CCDropDownMenu` now features
 
@@ -16,10 +17,16 @@
 
 ## Installation
 
-### Use Cocoapods
+### Cocoapods
 
 ```ruby
 pod 'CCDropDownMenu'
+```
+
+### Carthage
+
+```ruby
+github "Cokile/CCDropDownMenu"
 ```
 
 ### Manually 
@@ -35,8 +42,7 @@ Add all the files in the `CCDropDownMenu` folder to your project.
 ### Easy to use
 
 ```objective-c
-// Note the header name is CCDropDownMenus.h not CCDropDownMenu.h
-#import "CCDropDownMenus.h"
+#import <CCDropDownMenus/CCDropDownMenus.h>
 
 // ...
 @interface ViewController () <CCDropDownMenuDelegate>
@@ -96,15 +102,14 @@ menu.colorOfRows = @[<#UIColor#>, <#UIColor#>, <#UIColor#>, ...];
 
 
 
-## GAiDropDownMenu
+## GaiDropDownMenu
 
 ![](Captures/capture3.gif)
 
 ### Easy to use
 
 ```objective-c
-// Note the header name is CCDropDownMenus.h not CCDropDownMenu.h
-#import "CCDropDownMenus.h"
+#import <CCDropDownMenus/CCDropDownMenus.h>
 
 // ...
 @interface ViewController () <CCDropDownMenuDelegate>
@@ -175,8 +180,7 @@ menu.colorOfRows = @[<#UIColor#>, <#UIColor#>, <#UIColor#>, ...];
 ### Easy to use
 
 ```objective-c
-// Note the header name is CCDropDownMenus.h not CCDropDownMenu.h
-#import "CCDropDownMenus.h"
+#import <CCDropDownMenus/CCDropDownMenus.h>
 
 // ...
 @interface ViewController () <CCDropDownMenuDelegate>
