@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Cokile/CCActivityIndicatorView/blob/master/Licence)
 [![](https://img.shields.io/github/release/Cokile/CCDropDownMenu.svg)](https://github.com/Cokile/CCDropDownMenu/releases)
-[![](https://img.shields.io/cocoapods/v/CCDropDownMenu.svg)](https://img.shields.io/cocoapods/v/CCDropDownMenu.svg)
+[![](https://img.shields.io/cocoapods/v/CCDropDownMenus.svg)](https://img.shields.io/cocoapods/v/CCDropDownMenus.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 `CCDropDownMenu` now features
@@ -20,7 +20,7 @@
 ### Cocoapods
 
 ```ruby
-pod 'CCDropDownMenu'
+pod 'CCDropDownMenus'
 ```
 
 ### Carthage

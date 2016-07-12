@@ -13,15 +13,11 @@
 		B62889181D2FB456009E35E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62889161D2FB456009E35E3 /* Main.storyboard */; };
 		B628891A1D2FB456009E35E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62889191D2FB456009E35E3 /* Assets.xcassets */; };
 		B628891D1D2FB456009E35E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B628891B1D2FB456009E35E3 /* LaunchScreen.storyboard */; };
-		B62889281D2FBC50009E35E3 /* CCDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B62889271D2FBC50009E35E3 /* CCDropDownMenu.m */; };
 		B628892A1D2FCD02009E35E3 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B62889291D2FCD02009E35E3 /* arrow.png */; };
-		B628892D1D2FD892009E35E3 /* CCDropDownMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B628892C1D2FD892009E35E3 /* CCDropDownMenuCell.m */; };
 		B62889331D307101009E35E3 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = B628892F1D307101009E35E3 /* cloud.png */; };
 		B62889341D307101009E35E3 /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = B62889301D307101009E35E3 /* rain.png */; };
 		B62889351D307101009E35E3 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = B62889311D307101009E35E3 /* snow.png */; };
 		B62889361D307101009E35E3 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = B62889321D307101009E35E3 /* sun.png */; };
-		B62889391D30785C009E35E3 /* ManaDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B62889381D30785C009E35E3 /* ManaDropDownMenu.m */; };
-		B6488C381D34809600D6CC32 /* GaiDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B6488C371D34809600D6CC32 /* GaiDropDownMenu.m */; };
 		B6488C531D34C00400D6CC32 /* CCDropDownMenus.h in Headers */ = {isa = PBXBuildFile; fileRef = B6488C521D34C00400D6CC32 /* CCDropDownMenus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6488C571D34C00400D6CC32 /* CCDropDownMenus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6488C501D34C00400D6CC32 /* CCDropDownMenus.framework */; };
 		B6488C581D34C00400D6CC32 /* CCDropDownMenus.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6488C501D34C00400D6CC32 /* CCDropDownMenus.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -37,7 +33,6 @@
 		B6488C671D34C13B00D6CC32 /* CCDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = B62889261D2FBC50009E35E3 /* CCDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6488C681D34C14000D6CC32 /* Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = B628893D1D3097E0009E35E3 /* Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6488C691D34C14800D6CC32 /* CCDropDownMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B628892B1D2FD892009E35E3 /* CCDropDownMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B68B98E91D3369EB001CA29F /* SyuDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B68B98E81D3369EB001CA29F /* SyuDropDownMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -352,12 +347,7 @@
 			files = (
 				B62889151D2FB456009E35E3 /* ViewController.m in Sources */,
 				B62889121D2FB456009E35E3 /* AppDelegate.m in Sources */,
-				B62889391D30785C009E35E3 /* ManaDropDownMenu.m in Sources */,
-				B628892D1D2FD892009E35E3 /* CCDropDownMenuCell.m in Sources */,
-				B68B98E91D3369EB001CA29F /* SyuDropDownMenu.m in Sources */,
 				B628890F1D2FB456009E35E3 /* main.m in Sources */,
-				B62889281D2FBC50009E35E3 /* CCDropDownMenu.m in Sources */,
-				B6488C381D34809600D6CC32 /* GaiDropDownMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +573,7 @@
 				B6488C5A1D34C00500D6CC32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
