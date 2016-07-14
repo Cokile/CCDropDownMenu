@@ -189,6 +189,7 @@ menu.colorOfRows = @[<#UIColor#>, <#UIColor#>, <#UIColor#>, ...];
 - (void)viewDidLoad {
 	// ...
   	// You should set the batTintColor of the navigation first.
+    // If the view controller is embeded into a UINavigationController, you should pass YES to the second parameter, otherwise pass NO.
     SyuDropDownMenu *menu = [[SyuDropDownMenu alloc] initWithNavigationBar:<#UINavigationBar#> useNavigationController:<#BOOL#>;
 	menu.delegate = self;
     menu.numberOfRows = <#NSInteger#>;
