@@ -34,7 +34,7 @@
 /**
  *  The object that acts as the delegate of the drop down menu.
  */
-@property (nonatomic, weak) id <CCDropDownMenuDelegate> delegate;
+@property (nonatomic, unsafe_unretained) id <CCDropDownMenuDelegate> delegate;
 
 /**
  *  The color that applys to the title and the arrow when the drop down menu is expanded. Default value is a orange color.
