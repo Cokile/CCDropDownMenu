@@ -145,6 +145,14 @@
     return self;
 }
 
+- (void)collapse {
+    if(self.isExpanded) {
+        [self animateForClose];
+        [self updateForColor:self.isExpanded?self.inactiveColor:self.activeColor];
+        self.expanded = !self.isExpanded;
+    }
+}
+
 #pragma mark - Private methods
 - (void)commonInitialization {
     self.titleView = [[UIView alloc] init];
