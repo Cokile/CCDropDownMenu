@@ -38,5 +38,5 @@
 
 #pragma mark - Public methods
 - (instancetype)initWithFrame:(CGRect)frame title:(NSString *)title;
-
+- (void)collapse;
 @end
